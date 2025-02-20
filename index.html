@@ -187,12 +187,18 @@
       <div class="interface">
         <h2 class="titulo">FALA <span>COMIGO.</span> </h2>
 
-        <form method="post" action="envia.php" >
+        <form action="https://formsubmit.co/ajax/rhamonalmeida.dev@hotmail.com" 
+        method="post" 
+        data-form 
+        >  
+
           <input type="text" id="nome" name="nome"  placeholder="Seu nome completo:">
-          <input type="text" id="email" name="email" placeholder="Seu e-mail:">
+          <input type="email" id="email" name="email" placeholder="Seu e-mail:">
           <input type="number" id="telefone" name="telefone" placeholder="Seu celular:">
           <textarea name="" id="mensagem" name="mensagem" placeholder="Sua mensagem" required></textarea>
-          <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+          <div class="btn-enviar"><button type="submit" data-button="" value="ENVIAR">ENVIAR</div>
+
+          
         </form>
       </div><!--interface-->
     </section><!--formulario-->
